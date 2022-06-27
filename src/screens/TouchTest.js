@@ -1,6 +1,5 @@
 import React from 'react';
-import {Alert, Button, View} from 'react-native';
-import {TouchableOpacity} from 'react-native-gesture-handler';
+import {Button, View} from 'react-native';
 
 function TouchTest({navigation}) {
   return (

@@ -8,7 +8,6 @@ import {
   useFrameProcessor,
 } from 'react-native-vision-camera';
 import {runOnJS} from 'react-native-reanimated';
-import {TouchableWithoutFeedback} from 'react-native-gesture-handler';
 
 const ScanView = ({navigation}) => {
   const [hasPermission, setHasPermission] = useState(false);
@@ -37,9 +36,7 @@ const ScanView = ({navigation}) => {
       return;
     }
     textRecognized(ocr);
-    console.log(ocr);
   }, [ocr]);
-
   const textRecognized = text => {
     if (Boolean(nationality && documentNumber && name)) {
       navigation.navigate('ScanResult', {result});
@@ -60,7 +57,7 @@ const ScanView = ({navigation}) => {
       rowName &&
         setResult({
           ...result,
-          name: rowName.replace(/</g, ''),
+          name: rowName.replace(/[<| |«]/g, ''),
         });
     }
   };
@@ -75,9 +72,6 @@ const ScanView = ({navigation}) => {
     })();
   }, []);
 
-  const onPress = e => {
-    console.log('touched...');
-  };
   return device !== undefined && hasPermission ? (
     <View style={{flex: 1}}>
       <Camera
@@ -85,7 +79,7 @@ const ScanView = ({navigation}) => {
         frameProcessor={frameProcessor}
         device={device}
         isActive={true}
-        frameProcessorFps={60}
+        frameProcessorFps={5}
         onLayout={event => {
           setPixelRatio(
             event.nativeEvent.layout.width /
