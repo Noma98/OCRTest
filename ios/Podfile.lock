@@ -1,6 +1,12 @@
 PODS:
+  - Base64 (1.1.2)
   - boost (1.76.0)
   - CocoaAsyncSocket (7.6.5)
+  - CodePush (7.0.4):
+    - Base64 (~> 1.1)
+    - JWT (~> 3.0.0-beta.12)
+    - React-Core
+    - SSZipArchive (~> 2.2.2)
   - DoubleConversion (1.1.6)
   - FBLazyVector (0.68.2)
   - FBReactNativeSpec (0.68.2):
@@ -144,6 +150,8 @@ PODS:
   - GTMSessionFetcher/Core (1.7.2)
   - IamportReactNative (1.6.4):
     - React
+  - JWT (3.0.0-beta.14):
+    - Base64 (~> 1.1.2)
   - libevent (2.1.12)
   - MLImage (1.0.0-beta1)
   - MLKitCommon (3.0.0):
@@ -538,6 +546,7 @@ PODS:
     - ScanditCaptureCore (= 6.13.1)
     - ScanditOCR (= 6.13.1)
   - SocketRocket (0.6.0)
+  - SSZipArchive (2.2.3)
   - vision-camera-ocr (1.0.0):
     - GoogleMLKit/TextRecognition (= 2.2.0)
     - React-Core
@@ -551,6 +560,7 @@ PODS:
 
 DEPENDENCIES:
   - boost (from `../node_modules/react-native/third-party-podspecs/boost.podspec`)
+  - CodePush (from `../node_modules/react-native-code-push`)
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
   - FBReactNativeSpec (from `../node_modules/react-native/React/FBReactNativeSpec`)
@@ -633,6 +643,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - Base64
     - CocoaAsyncSocket
     - Firebase
     - FirebaseCore
@@ -655,6 +666,7 @@ SPEC REPOS:
     - GoogleUtilities
     - GoogleUtilitiesComponents
     - GTMSessionFetcher
+    - JWT
     - libevent
     - MLImage
     - MLKitCommon
@@ -669,11 +681,14 @@ SPEC REPOS:
     - ScanditOCR
     - ScanditTextCapture
     - SocketRocket
+    - SSZipArchive
     - YogaKit
 
 EXTERNAL SOURCES:
   boost:
     :podspec: "../node_modules/react-native/third-party-podspecs/boost.podspec"
+  CodePush:
+    :path: "../node_modules/react-native-code-push"
   DoubleConversion:
     :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
   FBLazyVector:
@@ -786,8 +801,10 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
+  Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
   boost: a7c83b31436843459a1961bfd74b96033dc77234
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  CodePush: b51b7ac64c07d4eacfc8cc5750a1dd28adbf2528
   DoubleConversion: 831926d9b8bf8166fd87886c4abab286c2422662
   FBLazyVector: a7a655862f6b09625d11c772296b01cd5164b648
   FBReactNativeSpec: 81ce99032d5b586fddd6a38d450f8595f7e04be4
@@ -814,6 +831,7 @@ SPEC CHECKSUMS:
   GoogleUtilitiesComponents: 679b2c881db3b615a2777504623df6122dd20afe
   GTMSessionFetcher: 5595ec75acf5be50814f81e9189490412bad82ba
   IamportReactNative: 8ab988ee3db0d713cf003b0efe0fa7f99aae1136
+  JWT: ef71dfb03e1f842081e64dc42eef0e164f35d251
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
   MLImage: 647f3d580c10b3c9a3f6154f5d7baead60c42a0c
   MLKitCommon: 6d6be0a2e9a6340aad1c1f2b9449c11dee8af70f
@@ -875,6 +893,7 @@ SPEC CHECKSUMS:
   ScanditOCR: 7f5beea725c242cbbb39809501c0c5a6b33c00dd
   ScanditTextCapture: e69b118bfb9e0969f5580cc11f883c27521a0f77
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
+  SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
   vision-camera-ocr: 484b73b1917f608ff36d6c041b2e2a48dfd290e6
   VisionCamera: 1ae1415dd21fee97c9bbfc1504d87cd7daba8d9c
   Yoga: 99652481fcd320aefa4a7ef90095b95acd181952

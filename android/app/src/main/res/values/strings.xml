@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">OCRTest</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">F88PeZ0vM9zz05I2TLFfHZq3R6rnk3ZuKimTU</string>
 </resources>
