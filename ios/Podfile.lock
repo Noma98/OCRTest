@@ -416,6 +416,8 @@ PODS:
     - React-Core
   - react-native-image-picker (4.8.4):
     - React-Core
+  - react-native-month-year-picker (1.8.1):
+    - React
   - react-native-netinfo (8.3.1):
     - React-Core
   - react-native-safe-area-context (3.4.1):
@@ -628,6 +630,7 @@ DEPENDENCIES:
   - react-native-config (from `../node_modules/react-native-config`)
   - react-native-flipper (from `../node_modules/react-native-flipper`)
   - react-native-image-picker (from `../node_modules/react-native-image-picker`)
+  - react-native-month-year-picker (from `../node_modules/react-native-month-year-picker`)
   - "react-native-netinfo (from `../node_modules/@react-native-community/netinfo`)"
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - react-native-splash-screen (from `../node_modules/react-native-splash-screen`)
@@ -762,6 +765,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-flipper"
   react-native-image-picker:
     :path: "../node_modules/react-native-image-picker"
+  react-native-month-year-picker:
+    :path: "../node_modules/react-native-month-year-picker"
   react-native-netinfo:
     :path: "../node_modules/@react-native-community/netinfo"
   react-native-safe-area-context:
@@ -892,6 +897,7 @@ SPEC CHECKSUMS:
   react-native-config: 7cd105e71d903104e8919261480858940a6b9c0e
   react-native-flipper: 102931f77ac9c94294f2117b463be6f9d55fab39
   react-native-image-picker: cffb727cf2f59bd5c0408e30b3dbe0b935f88835
+  react-native-month-year-picker: 66acab2013309482578a015f01c71e8f2eebb134
   react-native-netinfo: 1a6035d3b9780221d407c277ebfb5722ace00658
   react-native-safe-area-context: 9e40fb181dac02619414ba1294d6c2a807056ab9
   react-native-splash-screen: 4312f786b13a81b5169ef346d76d33bc0c6dc457

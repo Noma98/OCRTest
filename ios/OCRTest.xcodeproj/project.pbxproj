@@ -14,6 +14,9 @@
 		6A0A769D5793341551806158 /* libPods-OCRTest-OCRTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA7E58DF3B1C31C31DD36C5 /* libPods-OCRTest-OCRTestTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8B4D4644DE89650ACF8CB3B0 /* libPods-OCRTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E584E402EC09F4BBC63931DB /* libPods-OCRTest.a */; };
+		D51925C02873BC870086F3A0 /* push_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D51925BE2873BC860086F3A0 /* push_sound.mp3 */; };
+		D51925C12873BC870086F3A0 /* scan_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D51925BF2873BC870086F3A0 /* scan_sound.mp3 */; };
+		D51925C32873CF860086F3A0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D51925C22873CF860086F3A0 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,9 @@
 		72F108739A48287F4A00A6C2 /* Pods-OCRTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRTest.debug.xcconfig"; path = "Target Support Files/Pods-OCRTest/Pods-OCRTest.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = OCRTest/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FB156EE060A73090D3121D1 /* Pods-OCRTest-OCRTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRTest-OCRTestTests.release.xcconfig"; path = "Target Support Files/Pods-OCRTest-OCRTestTests/Pods-OCRTest-OCRTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		D51925BE2873BC860086F3A0 /* push_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = push_sound.mp3; sourceTree = "<group>"; };
+		D51925BF2873BC870086F3A0 /* scan_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = scan_sound.mp3; sourceTree = "<group>"; };
+		D51925C22873CF860086F3A0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E584E402EC09F4BBC63931DB /* libPods-OCRTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCRTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -86,6 +92,7 @@
 		13B07FAE1A68108700A75B9A /* OCRTest */ = {
 			isa = PBXGroup;
 			children = (
+				D51925C22873CF860086F3A0 /* GoogleService-Info.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -116,6 +123,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				D51925BE2873BC860086F3A0 /* push_sound.mp3 */,
+				D51925BF2873BC870086F3A0 /* scan_sound.mp3 */,
 				13B07FAE1A68108700A75B9A /* OCRTest */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* OCRTestTests */,
@@ -244,7 +253,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				D51925C12873BC870086F3A0 /* scan_sound.mp3 in Resources */,
+				D51925C32873CF860086F3A0 /* GoogleService-Info.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				D51925C02873BC870086F3A0 /* push_sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

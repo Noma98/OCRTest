@@ -7,5 +7,29 @@ module.exports = {
         globals: ['__scanOCR'],
       },
     ],
+    [
+      'module-resolver',
+      {
+        root: ['./src'],
+        extensions: [
+          '.ios.ts',
+          '.android.ts',
+          '.ts',
+          '.ios.tsx',
+          '.android.tsx',
+          '.tsx',
+          '.jsx',
+          '.js',
+          '.json',
+        ],
+        alias: {
+          '@': './src',
+          '@components': './src/components',
+          '@modules': './src/modules',
+          '@sreens': './src/sreens',
+          '@lib': './src/lib',
+        },
+      },
+    ],
   ],
 };
