@@ -1,4 +1,4 @@
-package com.ocrtest.newarchitecture;
+package com.successmode.ktp.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.ocrtest.BuildConfig;
-import com.ocrtest.newarchitecture.components.MainComponentsRegistry;
-import com.ocrtest.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.successmode.ktp.BuildConfig;
+import com.successmode.ktp.newarchitecture.components.MainComponentsRegistry;
+import com.successmode.ktp.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

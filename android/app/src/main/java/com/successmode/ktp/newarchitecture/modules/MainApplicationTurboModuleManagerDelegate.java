@@ -1,4 +1,4 @@
-package com.ocrtest.newarchitecture.modules;
+package com.successmode.ktp.newarchitecture.modules;
 
 import com.facebook.jni.HybridData;
 import com.facebook.react.ReactPackage;
