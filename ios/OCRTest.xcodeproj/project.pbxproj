@@ -523,7 +523,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.successmode.OCRTest;
+				PRODUCT_BUNDLE_IDENTIFIER = successmode.reactjs.Tpay;
 				PRODUCT_NAME = OCRTest;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -550,7 +550,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.successmode.OCRTest;
+				PRODUCT_BUNDLE_IDENTIFIER = successmode.reactjs.Tpay;
 				PRODUCT_NAME = OCRTest;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";

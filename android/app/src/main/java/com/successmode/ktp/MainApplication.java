@@ -1,4 +1,4 @@
-package com.ocrtest;
+package com.successmode.ktp;
 
 import android.app.Application;
 import android.content.Context;
